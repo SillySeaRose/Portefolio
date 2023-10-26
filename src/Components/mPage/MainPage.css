@@ -1,0 +1,33 @@
+#WebLimitBorder{
+    background-color: rgb(14, 14, 14);
+    margin: 30px;
+    height: 91vh;
+    border:white;
+    border-style:solid;    
+}
+
+.NameTitle{
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    color:  rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    font-size: 500%;
+    font-weight: bold;
+    font-stretch: condensed;
+    letter-spacing: -6px;
+}
+
+.SubNameTitle{
+    position: absolute;
+    top: 84%;
+    left: 7%;
+    font-weight: 500;
+    font-size: 200%;
+    color:  rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    font-stretch:extra-condensed;
+    letter-spacing: -2px;
+}
