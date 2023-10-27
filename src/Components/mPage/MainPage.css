@@ -16,7 +16,7 @@
     font-size: 500%;
     font-weight: bold;
     font-stretch: condensed;
-    letter-spacing: -6px;
+    letter-spacing: -5px;
 }
 
 .SubNameTitle{
@@ -29,5 +29,40 @@
     padding: 0px;
     margin: 0px;
     font-stretch:extra-condensed;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
+}
+
+#menu{
+    margin: 30px;
+    margin-right: 10%;
+    /* border: 2px white solid; */
+    float: right;
+    width: 30%;
+    height: 90%;
+}
+
+#organizer{
+    /* border: 2px rgb(210, 2, 2) solid; */
+    /* margin-right: 5%; */
+    height:100%;
+    box-sizing:border-box;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menuLink{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    font-size: 400%;
+    font-weight: bold;
+    font-stretch: condensed;
+    transition: all ease 1s;
+}
+
+.menuLink:hover{
+    color: white;
+    font-size: 450%;
 }
